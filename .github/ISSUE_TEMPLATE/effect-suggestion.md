@@ -1,9 +1,9 @@
 ---
-Name: Effect Suggestion
-About: Suggest a gameplay effect for this mod
-Title: "[Effect Request] Effect Name"
-Labels: Effect suggestion
-Assignees: ''
+name: Effect Suggestion
+about: Suggest effects that should be added.
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
