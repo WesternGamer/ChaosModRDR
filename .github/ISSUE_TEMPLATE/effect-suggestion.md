@@ -1,8 +1,8 @@
 ---
 name: Effect Suggestion
 about: Suggest effects that should be added.
-title: ''
-labels: ''
+title: [Effect Suggestion] My Super Cool Effect Idea
+labels: Effect Suggestion
 assignees: ''
 
 ---
