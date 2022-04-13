@@ -130,7 +130,7 @@ void ChaosMod::ToggleModStatus()
 
 		std::string effectsNumStr = "~q~Loaded ~COLOR_GOLD~" + std::to_string(AllEffects.size()) + "~q~ effects";
 
-		ShowNotification2("~COLOR_GREEN~Chaos Mod Enabled", effectsNumStr.c_str(), 3500, "scoretimer_textures", "scoretimer_generic_tick", LinearColor(77, 170, 104, 255));
+		ShowNotification("~COLOR_GREEN~Chaos Mod Enabled", effectsNumStr.c_str(), "scoretimer_textures", "scoretimer_generic_tick", 3500, "COLOR_GREEN");
 	}
 	else
 	{
@@ -146,7 +146,7 @@ void ChaosMod::ToggleModStatus()
 			wsServer->SendMessageToClient("mod_disabled");
 		}
 
-		ShowNotification2("~COLOR_PLAYER_STATUS_NEGATIVE~Chaos Mod Disabled", "", 3500, "scoretimer_textures", "scoretimer_generic_cross", LinearColor(204, 0, 0, 255));
+		ShowNotification("~COLOR_PLAYER_STATUS_NEGATIVE~Chaos Mod Disabled", "", "scoretimer_textures", "scoretimer_generic_cross", 3500, "COLOR_PLAYER_STATUS_NEGATIVE");
 
 		for (auto ped : ChaosMod::pedsSet)
 		{
